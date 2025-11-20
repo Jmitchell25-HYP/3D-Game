@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpForce = 5f;
 
     [SerializeField] Transform groundCheck;
-
+    [SerializeField] LayerMask ground;
 
 
     void Start()
@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
         niko.linearVelocity = new Vector3(horizontalInput * 5f, niko.linearVelocity.y, verticalInput * 5f);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             niko.linearVelocity = new Vector3(niko.linearVelocity.x, jumpForce, niko.linearVelocity.z);
         }
@@ -35,14 +35,12 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+
     bool IsGrounded()
     {
-        Physics.CheckSphere(groundCheck.position, .1f, )
+       return Physics.CheckSphere(groundCheck.position, .1f, ground);
     }
-
-
-
-
+}
 
 
 
@@ -138,4 +136,3 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-}
