@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
 
+    bool doubleJump;
 
     void Start()
     {
@@ -26,7 +27,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             niko.linearVelocity = new Vector3(niko.linearVelocity.x, jumpForce, niko.linearVelocity.z);
+            doubleJump = true;
         }
+
+        if (Input.GetButtonDown("Jump") && !IsGrounded() && doubleJump)
+        {
+            niko.linearVelocity = new Vector3(niko.linearVelocity.x, jumpForce, niko.linearVelocity.z);
+            doubleJump = false;
+        }
+
+
 
     }
 
