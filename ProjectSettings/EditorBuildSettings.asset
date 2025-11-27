@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/End Screen.unity
     guid: 9486db15e03310f418f184c813ddd721
+  - enabled: 1
+    path: Assets/LPO.unity
+    guid: 7bc5d7fbbdbd33949a386dd68953158e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
