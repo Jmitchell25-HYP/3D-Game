@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     bool doubleJump;
 
     void Start()
-    {  
+    {
         niko = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked; // Lock the Cursor in place
 
@@ -92,7 +92,6 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-        
 
 
 
@@ -108,7 +107,52 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
