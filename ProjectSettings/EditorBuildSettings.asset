@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/StartMenu.unity
     guid: afa883aa897db3041a9fa6010e8243b1
-  - enabled: 1
+  - enabled: 0
     path: Assets/SoOOOO CLOSE.unity
     guid: b57f75f196bf888439543c2b63507192
+  - enabled: 1
+    path: Assets/ALL AGAIN.unity
+    guid: d59effca002bd17448f25791866f0b69
+  - enabled: 1
+    path: Assets/End Screen.unity
+    guid: 9486db15e03310f418f184c813ddd721
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
