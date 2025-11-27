@@ -10,8 +10,13 @@ EditorBuildSettings:
     guid: afa883aa897db3041a9fa6010e8243b1
   - enabled: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     path: Assets/SKOP.unity
     guid: e1b152e53e9477a4f9b398e69fafcc88
+=======
+    path: Assets/YHYH.unity
+    guid: e416e1bf1e34cc74eb4ac23ba4a4a571
+>>>>>>> Stashed changes
 =======
     path: Assets/YHYH.unity
     guid: e416e1bf1e34cc74eb4ac23ba4a4a571
