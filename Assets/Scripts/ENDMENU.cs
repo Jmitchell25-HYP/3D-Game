@@ -6,7 +6,7 @@ public class ENDMENU : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit(1);
     }
 
 
